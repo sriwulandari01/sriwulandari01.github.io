@@ -1,8 +1,8 @@
 
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     .lesson {
         width: 50%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     
     .top-wrapper h1{
@@ -23,17 +23,19 @@
 }
 
 
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
     .lesson {
         width: 100%;
         margin: 0 auto;
     }
 
     .top-wrapper h1{
-        font-size: 50px;
+        font-size: 24px;
+	line-height;36px;
     }
     .top-wrapper h3 {
-        font-size: 25px;
+        font-size: 14px;
+	line-height:20px
     }
     .heading {
         font-size: 25px;
@@ -53,4 +55,8 @@
     .text-contents {
         font-size: 11px;
     }
+    footer {
+    text-align:center;
+    }
+
 }
