@@ -1,0 +1,56 @@
+
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .top-wrapper h1{
+        font-size: 80px;
+    }
+    .top-wrapper h3 {
+        font-size: 32px;
+    }
+    .heading {
+        font-size: 45px;
+    }
+    .subject {
+        font-size: 24px;
+    }
+    .text-contents {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .top-wrapper h1{
+        font-size: 50px;
+    }
+    .top-wrapper h3 {
+        font-size: 25px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .btn {
+        width: 100%;
+    }
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+      }
+    .subject {
+        font-size: 19px;
+    }
+    .text-contents {
+        font-size: 11px;
+    }
+}
